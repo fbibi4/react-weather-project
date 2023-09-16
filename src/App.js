@@ -14,7 +14,7 @@ export default function App() {
           This project was designed by Farha Bibi{" "}
           <a
             href="https://github.com/fbibi4/react-weather-project"
-            rel={no - referrer}
+            rel="noopener noreferrer"
             target="_blank"
           >
             opened-sourced on Github.
