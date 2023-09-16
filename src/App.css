@@ -1,9 +1,40 @@
-.App {
-  max-width: 600px;
-  margin: 40px auto;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  background-color: rgb(163, 232, 232);
 }
 
-.App footer {
-  font-size: 14px;
-  margin-top: 10px;
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  max-width: 600px;
+  max-height: 500px;
+}
+
+.lottie-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  text-align: center;
+}
+a {
+  color: rgb(21, 115, 71);
+  text-decoration: none;
+  font-weight: bold;
 }

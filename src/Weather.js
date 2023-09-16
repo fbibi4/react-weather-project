@@ -6,6 +6,7 @@ import WeatherInfo from "./WeatherInfo";
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
+
   function handleResponse(response) {
     setWeatherData({
       ready: true,
@@ -19,6 +20,7 @@ export default function Weather(props) {
       icon: response.data.weather[0].icon,
     });
   }
+
   function search() {
     const apiKey = `f8e14a21ac2a08b12d64743366f61697`;
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
@@ -52,7 +54,7 @@ export default function Weather(props) {
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-primary w-100"
+                className="btn btn-success w-100"
               />
             </div>
           </div>
