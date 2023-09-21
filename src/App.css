@@ -29,6 +29,11 @@ html {
   height: 1300px;
 }
 
+.WeatherInfo ul.description {
+  text-align: left;
+  margin-left: 90px;
+}
+
 .lottie-container-2 {
   position: absolute;
   width: 1500px;

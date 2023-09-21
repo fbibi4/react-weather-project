@@ -12,7 +12,7 @@ export default function App() {
       <Lottie animationData={day} className="lottie-container-2" />
 
       <div className="container">
-        <Weather defaultCity="Bradford" />
+        <Weather defaultCity="London" />
 
         <footer>
           This project was designed by Farha Bibi{" "}
