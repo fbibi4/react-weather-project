@@ -15,6 +15,12 @@
   margin-bottom: 10px;
 }
 
+.WeatherInfo ul.description {
+  text-align: left;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
 .Weather ul {
   margin: 0;
   padding: 0;
@@ -23,11 +29,9 @@
 
 .Weather li {
   list-style: none;
-  font-size: 16px;
+  font-size: 17px;
 }
 
-.forecastDescription {
-}
 .Weather form {
   margin-bottom: 18px;
 }
@@ -52,7 +56,6 @@
 }
 
 .Weather canvas {
-  margin-right: 5px;
   margin-top: 5px;
   display: inline-block;
 }

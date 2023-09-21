@@ -31,7 +31,8 @@ html {
 
 .WeatherInfo ul.description {
   text-align: left;
-  margin-left: 90px;
+  margin-left: 110px;
+  font-size: 20px;
 }
 
 .lottie-container-2 {
