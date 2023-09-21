@@ -4,37 +4,55 @@ html {
   padding: 0;
   overflow: hidden;
   height: 100%;
-  background-color: rgb(163, 232, 232);
 }
 
 .App {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
-  overflow: hidden;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .container {
+  padding-top: 80px;
   position: relative;
-  max-width: 600px;
-  max-height: 500px;
+  max-width: 550px;
+  max-height: 600px;
+  text-align: center;
 }
 
 .lottie-container {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  width: 1950px;
+  height: 1300px;
+}
+
+.lottie-container-2 {
+  position: absolute;
+  width: 1500px;
+  height: 1000px;
 }
 
 footer {
   text-align: center;
+  color: white;
+  font-size: 17px;
+  margin-top: 220px;
 }
 a {
-  color: rgb(21, 115, 71);
+  color: rgb(241, 207, 62);
   text-decoration: none;
   font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .lottie-container {
+    width: 1400px;
+    height: 1500px;
+  }
+  footer {
+    font-size: 15px;
+  }
 }
